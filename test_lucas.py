@@ -11,9 +11,11 @@
 #             == fib_list[index + 2]
 #         index += 1
 
-lucas_correct_list = []
+CORRECT_LIST = [2, 1, 3, 4, 7, 11, 18, 29]
+
+
 def test_lucas():
-    """Test lucas list for lucas pattern."""
-    for i in range(len(lucas_list)):
-        print(lucas_list[i], lucas_correct_list[i])
-        assert lucas_list[i] is lucas_correct_list[i]
+    """Test lucas for corect item at index."""
+    from lucas import lucas_list
+    result = lucas_list(0)
+    assert result == CORRECT_LIST[0]
