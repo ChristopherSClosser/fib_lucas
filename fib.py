@@ -1,9 +1,11 @@
 """Fibinachi sequence."""
 
 
+fib_list = []
+
+
 def fibonacci(n):
     """Fibinachi sequence function."""
-    fib_list = []
     fib_list.append(n)
     fib_list.append(n + 1)
     for i in range(10):

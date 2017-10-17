@@ -1,9 +1,10 @@
 """Test for fibinachi sequence."""
 
 
-def test_fibonacci(fib_sequence):
+def test_fibonacci():
     """Test fibonacci list for fibonacci pattern."""
     from fib import fibonacci
-    for i in fib_sequence:
-        assert fibonacci((fib_sequence[i]) + (fib_sequence[i + 1])) \
-            == fib_sequence[i + 2]
+    from fib import fib_list
+    for i in fib_list:
+        assert fibonacci((fib_list[i]) + (fib_list[i + 1])) \
+            == fib_list[i + 2]
