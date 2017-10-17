@@ -1,7 +1,5 @@
 """Fibinachi sequence."""
 
-
-
 # def fibonacci(n):
 #     """Fibinachi sequence function."""
 #     fib_list.append(n)
@@ -15,6 +13,6 @@
 
 
 def fibinacci(n):
-	"""Returns value at index of n."""
+    """Return value at index of n."""
     fib_list = [0, 1, 1, 2, 3, 5, 8, 13]
     return fib_list[n]
