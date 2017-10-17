@@ -14,8 +14,15 @@
 CORRECT_LIST = [2, 1, 3, 4, 7, 11, 18, 29]
 
 
-def test_lucas():
+def test_lucas_1():
     """Test lucas for corect item at index."""
     from lucas import lucas_list
     result = lucas_list(0)
     assert result == CORRECT_LIST[0]
+
+
+def test_lucas_2():
+    """Test lucas for corect item at index."""
+    from lucas import lucas_list
+    result = lucas_list(1)
+    assert result == CORRECT_LIST[1]
