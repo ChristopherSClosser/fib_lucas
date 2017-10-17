@@ -4,3 +4,4 @@ fibonacci
 .git
 *.pyc
 __pycache__
+.coverage
