@@ -1,4 +1,6 @@
 
-.coverage
+fibonacci
 .cache
+.git
+*.pyc
 __pycache__
