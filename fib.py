@@ -1,0 +1,1 @@
+"""Fibinachi sequence."""
